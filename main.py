@@ -149,10 +149,10 @@ data = {
     "value": math.floor(weather['low']),
     "color": get_random_color()
   },
-  "love_days": {
-    "value": get_memorial_days_count(),
-    "color": get_random_color()
-  },
+  # "love_days": {
+  #  "value": get_memorial_days_count(),
+  #  "color": get_random_color()
+  #},
   "words": {
     "value": get_words(),
     "color": get_random_color()
